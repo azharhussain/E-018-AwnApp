@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238945359666",
+    "firebase_url": "https://awn-app-001.firebaseio.com",
+    "project_id": "awn-app-001",
+    "storage_bucket": "awn-app-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238945359666:android:52403f548e4d715c",
+        "android_client_info": {
+          "package_name": "app.awn.awn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238945359666-8bhbgi3naq179m1843nd7vimo59blpq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.awn.awn",
+            "certificate_hash": "b1e495807513fdf80ea5584946cb7bc00242ab52"
+          }
+        },
+        {
+          "client_id": "238945359666-jcparbnc119763u1g0ljav7ajikam7lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiSKCYW5jgFL7ZTfEL85BGJMsFES5dQdQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238945359666-jcparbnc119763u1g0ljav7ajikam7lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
