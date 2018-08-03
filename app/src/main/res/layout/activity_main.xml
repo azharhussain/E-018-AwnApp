@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <fragment
+        android:id="@+id/location_map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
 
-
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="300dp"
-    android:id="@+id/message"
-    />
+   <!-- <com.google.android.gms.maps.MapView
+        android:id="@+id/mapMsgView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />-->
 
     <!--<Button
     android:layout_width="match_parent"
@@ -41,8 +51,7 @@
         android:layout_height="wrap_content"
 
         android:id="@+id/redImgButton"
-        android:layout_below="@id/message"
-        android:src="@drawable/red"
+       android:src="@drawable/red"
         android:background="@color/colorWhite"
         />
 
@@ -64,5 +73,7 @@
         android:src="@drawable/green"
         android:background="@color/colorWhite"
         />
+
+
 
 </RelativeLayout>

@@ -7,18 +7,39 @@ public class Message {
    private String RecieverID;
    private String CriticalityLevel;
    private String MessageStatus;
+   private String SenderLng;
+   private String SenderLat;
 
    public Message(){
 
    }
 
-    public Message(String messageId, String message, String senderid,String recieverid, String criticalitylevel,String messagestatus) {
+    public Message(String messageId, String message, String senderid,String recieverid, String criticalitylevel,String messagestatus, String senderlng,String senderlat) {
         MessageId = messageId ;
         Message = message;
         RecieverID=recieverid;
         SenderID= senderid;
         CriticalityLevel = criticalitylevel;
         MessageStatus= messagestatus;
+        SenderLat=senderlat;
+        SenderLng=senderlng;
+
+    }
+
+    public void setSenderLng(String senderLng) {
+        SenderLng = senderLng;
+    }
+
+    public void setSenderLat(String senderLat) {
+        SenderLat = senderLat;
+    }
+
+    public String getSenderLng() {
+        return SenderLng;
+    }
+
+    public String getSenderLat() {
+        return SenderLat;
     }
 
     public String getMessageId() {
